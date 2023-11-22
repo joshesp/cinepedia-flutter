@@ -18,7 +18,7 @@ class HomeScreen extends StatelessWidget {
       body: Center(
         child: childView,
       ),
-      bottomNavigationBar: CustomBottomNavigationBar(),
+      bottomNavigationBar: const CustomBottomNavigationBar(),
     );
   }
 }
