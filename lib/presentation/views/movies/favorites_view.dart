@@ -7,7 +7,7 @@ class FavoritesView extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Favorites'),
+        title: const Text('Favorites'),
       ),
       body: const Center(
         child: Icon(Icons.favorite_border_outlined),
